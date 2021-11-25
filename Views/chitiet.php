@@ -51,12 +51,12 @@
 	 <div class="container">
      <div class="row ">
            <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
-       <div id="carousel-id" class="carousel slide" data-ride="carousel" data-interval="2500">
+       <!-- <div id="carousel-id" class="carousel slide" data-ride="carousel" data-interval="2500">
            <ol class="carousel-indicators">
                <li data-target="#carousel-id" data-slide-to="0" class=""></li>
                <li data-target="#carousel-id" data-slide-to="1" class=""></li>
                <li data-target="#carousel-id" data-slide-to="2" class="active"></li>
-           </ol>
+           </ol> -->
            <div class="carousel-inner">
                <div class="item ">
                <img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="First slide" src=""/>

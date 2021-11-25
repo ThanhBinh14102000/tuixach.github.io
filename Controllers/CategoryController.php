@@ -15,7 +15,7 @@ class CategoryController extends BaseController
         $username = $password = NULL;
         while($row = mysqli_fetch_array($result)):
             array_push($categorys,['id'=>$row['id'],'image'=>$row['image'],
-                'content'=>$row['ten']]);
+                'content'=>$row['ten'],'gia'=>$row['gia']]);
        endwhile;
        if (isset($_POST['login'])) {
         if (empty($_POST['username'])) {

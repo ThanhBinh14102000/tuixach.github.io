@@ -6,11 +6,11 @@ class DeleteController extends BaseController
        
 	}
     public function index(){
-        $MaTour= $_REQUEST['mt'];
+        $MaSP= $_REQUEST['mt'];
         $usname= $_REQUEST['id'];
         $conn=mysqli_connect('localhost','root','','thegioituixach') or die ('connect failed');
         
-        $sql = "DELETE FROM giohang Where id = $MaTour and username = $usname ";
+        $sql = "DELETE FROM giohang Where id = $MaSP and username = $usname ";
         $query=mysqli_query($conn,$sql);
         if($query)
 		{
@@ -21,7 +21,7 @@ class DeleteController extends BaseController
 			$message = "Không thể xóa";
 			echo "<script type='text/javascript'>alert('$message');</script>";
 		}		
-        require("./Views/dstour.php");
+        require("./Views/dssanpham.php");
     } 
     public function show(){
         echo __METHOD__;

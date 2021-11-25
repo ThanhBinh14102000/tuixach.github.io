@@ -93,7 +93,7 @@ class UserModel extends Database{
 			$page = $_GET['page'];
 			
 			}
-		$results_per_page = 12;
+		$results_per_page =8;
 		$page_first_result = ($page-1) * $results_per_page;
 		$query ="SELECT * FROM caphocsinhtomi ";
         $result = mysqli_query($this->db->conn, $query);

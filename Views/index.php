@@ -101,7 +101,7 @@
                         <?php 
                          if($check)
                          {for($i=0;$i<count($categorys);$i++)
-                            { echo  '<div style="height:350px;"  class="card" ><img src="'.$categorys[$i]['image'].'" alt="Avatar" style="width: 100%;"><h4><a style="text-decoration: none" href="./?controllers=Product&&action=index&&id='.$categorys[$i]['id'].'&&tk='.$check.'" class="cuttext">'.$categorys[$i]['content'].'</a></h4>
+                            { echo  '<div style="height:380px;"  class="card" ><img src="'.$categorys[$i]['image'].'" alt="Avatar" style="width: 100%;"><h4><a style="text-decoration: none" href="./?controllers=Product&&action=index&&id='.$categorys[$i]['id'].'&&tk='.$check.'" class="cuttext">'.$categorys[$i]['content'].'</p></a></h4>
                               <br>  
                               <a class="btnadd" style="text-decoration: none" href="./?controllers=add&&mt='.$categorys[$i]['id'].'&&id='.$check.'">Thêm vào giỏ hàng</a>
                                 
@@ -139,7 +139,7 @@
             
     
                  <th>
-                 <b>Giảng viên hỗ trợ: </b><br>
+                 <b>Giảng viên hỗ trợ: Trần Hồng Việt </b><br>
                     <b>Chủ Nhiệm Đề Tài: Nhóm 5</b><br>
                     <i>DHTI12A1HN </i></th>
                

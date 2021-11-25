@@ -49,8 +49,8 @@
                   <input type="text" class="form-control" size="20" name="ten"/>
 				          <label for="">Giá</label>
                  <input type="text" class="form-control" size="20" name="gia"/>
-                 <label for="">Content</label>
-                 <input type="text" class="form-control" size="20" name="tomtat"/>
+                 <!-- <label for="">Content</label>
+                 <input type="text" class="form-control" size="20" name="tomtat"/> -->
                  <label for="">Link image</label>
                  <input type="text" class="form-control" value="" size="20" name="image"/>
                  
@@ -68,12 +68,12 @@
                mysqli_query($conn, 'set name utf8');
 			if(isset($_POST['add']))
 			{
-				$h1=$_POST['MaSp'];
+				$h1=$_POST['Masp'];
 				$h3=$_POST['ten'];
-				$h7=$_POST['tomtat'];
+				// $h7=$_POST['tomtat'];
         $h8=$_POST['image'];
         $h9=$_POST['gia'];
-				$sql="INSERT INTO caphocsinhtomi VALUES ('$h1','$h3','$h7','$h8','$h9')";				
+				$sql="INSERT INTO caphocsinhtomi VALUES ('$h1','$h3','$h9','$h8')";				
 				if($h1!=null)
 				{
 					$query=mysqli_query($conn,$sql);
@@ -83,12 +83,12 @@
 							echo "<script type='text/javascript'>alert('$message');</script>";
 					}
 					else {
-						$message = "Mã tour đã tồn tại";
+						$message = "Mã sản phẩm đã tồn tại";
 						echo "<script type='text/javascript'>alert('$message');</script>";
 					}				
 				}
 				else{
-					$message = "Hãy nhập lại mã tour";
+					$message = "Hãy nhập lại mã sản phẩm";
 						echo "<script type='text/javascript'>alert('$message');</script>";
 				}
 			}

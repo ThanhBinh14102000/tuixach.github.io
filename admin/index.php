@@ -17,7 +17,7 @@
       <nav class="navbar navbar-inverse navbar-fixed-top"> 
       <div class="container-fluid">
         <div class="navbar-header active">
-        <a class="navbar-brand " href="../?controllers=back" >Trang chủ</a>
+        <a class="navbar-brand " href="../?controllers=back" >Home</a>
         </div>
         <ul class="nav navbar-nav">
           <li><a >Quản lí tài khoản </a></li>
