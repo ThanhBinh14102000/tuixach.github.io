@@ -1,0 +1,777 @@
+* {
+    margin:0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+}
+#top {
+    width: 100%;
+    background-color: #f6f6f6;
+    float: left;
+    height: 34px;
+    font-size: 14px;
+}
+#top ul li {
+    float: left;
+    padding-right: 5px;
+    list-style-type: none;
+    margin-top:5px;
+}
+.hotline {
+    padding-left: 90px;
+}
+.phone {
+    padding-left: 30px;
+}
+.address {
+    padding-left:20px ;
+}
+#header {
+    width: 100%;
+}
+#logo {
+    float: left;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+#search {
+     float: left;
+     margin-top: 30px;
+}
+#search .search {
+    width: 450px;
+    height: 40px;
+    border: 2px solid #08c;
+    margin-left: 40px;
+    outline: 0;
+    text-indent:10px;
+    float: left;
+    border-radius: 0px;
+}
+#search .btn-search {
+    background: url(./img/search.png) center center no-repeat #08c;
+    width: 100px;
+    height: 44px;
+    border:none;
+    border-radius: 0px;
+    outline: none;
+    cursor: pointer;
+}
+#register {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    height: 100px;
+    margin-top: 40px;
+}
+#register li {
+    float: left;
+    list-style-type: none;
+    margin-top: 30px;
+    margin-right: 30px;
+    height: 40px;   
+}
+ .reg {
+    background-image: url(./img/reg1.png) ;
+    background-repeat: no-repeat;
+    background-position-x:61px;
+    font-size: 14px;
+    padding-top:30px;
+    padding-left: 50px;
+}
+.login {
+    background-image: url(./img/login-new1.png);
+    background-repeat: no-repeat;
+    background-position-x: 22px;
+    font-size: 14px;
+    padding-top: 30px;
+}
+.cart {
+    background-image: url(./img/cart-new1.png);
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+    font-size: 14px;
+    padding-top: 30px;
+}
+#home-slider {
+    display: flex;
+    width:100%;
+    height: 590px;
+}
+.product-list{
+    width:290px;
+    height: 300px;
+    margin-top: 15px;
+    margin-left:50px
+}
+.menu {
+    height: 40px;
+    margin-left:31px;
+    margin-top:15px;
+    width: 800px;
+}
+.menu ul li {
+    float: left;
+    list-style-type: none;
+    padding-right: 30px;
+    margin-top:15px;
+    margin-left: 15px;
+    font-size: 14px;
+}
+.menu ul li a {
+    text-decoration: none;
+}
+.new-product {
+    border:1px solid;
+    height: 40px;
+}
+.product-list h3 {
+    font-size: 14px;
+    margin-top:5px;
+    color:white;
+    height: 30px;
+    padding-top: 10px;
+}
+.product-list  a {
+    text-decoration: none;
+    color: gray;
+}
+.product-list a:hover {
+    color: blue;
+    display: block;
+}
+.icon-menu {
+    display: flex;
+    margin-top: -1px;
+    background-color:#f7f7f7    ;
+    padding: 17px 0px 0px 15px;
+    height: 30px;
+    width:270px;
+    margin-left: 36px;
+    border-bottom: 2px solid gainsboro;
+    border-left: 1px solid gainsboro;
+}
+.list {
+    background-color: #0088cc;
+    width: 270px;
+    padding-left: 15px;
+    margin-left: 36px;
+}
+.new-pr {
+    color: white;
+    background-color:#0088cc ;
+    height: 30px;
+    margin-top: 59px;
+    margin-left: -80px;
+    width:176px;
+}
+#new-product .new-pr p {
+    font-size: 14px;
+    padding-top: 7px;
+    text-align: center;   
+}
+.new-pr1 {
+    height:250px;
+    border-bottom:1px solid gainsboro;
+    width: 176px;
+    margin-left: -80px;
+}
+.new-pr1 img {
+    margin-left:17px;
+    margin-top: 30px;
+}
+.new-pr1 p {
+    margin-left: 19px;
+}
+.new-pr2 {
+    height:250px;
+}
+.new-pr2 img {
+    margin-left:-58px;
+    margin-top: 30px;
+}
+.new-pr2 p {
+    margin-left: -43px;
+}
+#services-wrapper{
+    width: 1349px;
+    height: 93px;
+    background-color:#F7F7F7  ;
+    margin-top: -2px;
+}
+.container {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.service-item {
+    display: flex;
+    padding-right: 50px;
+    font-size: 12px;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-right: 1px solid gainsboro;
+}
+.service-item .icon{
+    padding-right: 15px;
+}
+.service-item1 {
+    font-size: 12px;
+    margin-left: 30px;
+    display: flex;
+    margin-top:30px;
+}
+.service-item1 .icon{
+    padding-right: 15px;
+}
+.service-item h3 {
+    font-size: 15px;
+}
+.service-item1 h3 {
+    font-size: 15px;
+}
+.service-item p {
+    margin-top:5px;
+}
+.service-item1 p {
+    margin-top:5px;
+}
+#promotional {
+    width: 1170px;
+    height: 650px;
+    margin-left: 87px;
+}
+#promotional .taskbar {
+    width: 1168.5px;
+    height: 45px;
+    border: 1px solid gainsboro;
+    background-color:#f7f7f7;
+    margin-top: 50px;
+    display: flex;
+}
+#promotional .taskbar .title{
+    background-color: #f36;
+    width: 150px;
+}
+#promotional .taskbar .title h2 {
+    margin-top:13px;
+    margin-left:11px;
+    font-size: 20px;
+    color: white;
+}
+#promotional .taskbar .content {
+    display: flex;
+    margin-left: 75px;
+}
+#promotional .taskbar .content p {
+    margin-top:14px;
+    padding-right: 10px;
+    border-right: 1px solid ;
+    margin-bottom: 16px;
+    font-size:15px
+}
+#promotional .product-items {
+    margin-top:15px;
+    height: 600px;
+    display: flex;
+    width: 1170px;
+    
+}
+#promotional .product-items .product-item1 {
+    display: flex;
+    height: 290px;
+    width: 950px;
+
+}
+#promotional .product-items .product-item1 .product-1 {
+    width: 225.5px;
+    border:1px solid gainsboro;
+    margin-left: 10px;
+}
+#promotional .product-items .product-item1 .product-1 img {
+    margin-top:50px
+}
+#promotional .product-items .product-item2 {
+    display: flex;
+    height: 290px;
+    width: 950px;
+    margin-top:20px;
+}
+#promotional .product-items .product-item2 .product-1 {
+    width: 225.5px;
+    border:1px solid gainsboro;
+    margin-left: 10px;
+}
+#promotional .product-items .product-item2 .product-1 img {
+    margin-top:50px
+}
+.product-item {
+    flex-wrap: wrap;
+    width: 939px;
+}
+.img {
+    height: 235px;
+}
+.info {
+    height: 50px;
+}
+.info .info-text {
+    font-size: 15px;
+    margin-top:5px;
+    margin-left: 10px;
+    padding-bottom: 5px;
+    color:gray;
+}
+.info .info-money {
+    margin-left: 10px;
+    color:#08C;  
+}
+#student-balo {
+    width: 1170px;
+    height: 650px;
+    margin-left: 87px;
+}
+#student-balo .taskbar {
+    width: 1168.5px;
+    height: 45px;
+    border: 1px solid gainsboro;
+    background-color:#f7f7f7;
+    margin-top: 50px;
+    display: flex;
+}
+#student-balo .taskbar .title{
+    background-color: #f36;
+    width: 200px;
+}
+#student-balo .taskbar .title h2 {
+    margin-top:11px;
+    margin-left:8px;
+    font-size: 20px;
+    color: white;
+}
+
+#student-balo .taskbar .content {
+    display: flex;
+    margin-left: 28px;
+}
+#student-balo .taskbar .content p {
+    margin-top:14px;
+    padding-right: 10px;
+    border-right: 1px solid ;
+    margin-bottom: 16px;
+    font-size:15px
+}
+#student-balo .product-items {
+    margin-top:15px;
+    height: 600px;
+    display: flex;
+    width: 1170px;
+}
+#student-balo .product-items .product-item1 {
+    display: flex;
+    height: 290px;
+    width: 950px;
+}
+#student-balo .product-items .product-item1 .product-1 {
+    width: 225.5px;
+    border:1px solid gainsboro;
+    margin-left: 10px;
+}
+#student-balo .product-items .product-item1 .product-1 img {
+    margin-top:50px
+}
+#student-balo .product-items .product-item2 {
+    display: flex;
+    height: 290px;
+    width: 950px;
+    margin-top:20px;
+}
+#student-balo .product-items .product-item2 .product-1 {
+    width: 225.5px;
+    border:1px solid gainsboro;
+    margin-left: 10px;
+}
+#student-balo .product-items .product-item2 .product-1 img {
+    margin-top:50px
+}
+.product-item {
+    flex-wrap: wrap;
+    width: 939px;
+}
+.img {
+    height: 235px;
+}
+.info {
+    height: 50px;
+}
+.info .info-text {
+    font-size: 15px;
+    margin-top:5px;
+    margin-left: 10px;
+    padding-bottom: 5px;
+    color:gray;
+}
+.info .info-money {
+    margin-left: 10px;
+    color:#08C;
+}
+#stylish-balo {
+    width: 1170px;
+    height: 650px;
+    margin-left: 87px;
+
+}
+#stylish-balo .taskbar {
+    width: 1168.5px;
+    height: 45px;
+    border: 1px solid gainsboro;
+    background-color:#f7f7f7;
+    margin-top: 50px;
+    display: flex;
+}
+#stylish-balo .taskbar .title{
+    background-color: #f36;
+    width: 200px;
+}
+#stylish-balo .taskbar .title h2 {
+    margin-top:11px;
+    margin-left:25px;
+    font-size: 20px;
+    color: white;
+}
+
+#stylish-balo .taskbar .content {
+    display: flex;
+    margin-left: 28px;
+}
+#stylish-balo .taskbar .content p {
+    margin-top:14px;
+    padding-right: 10px;
+    border-right: 1px solid ;
+    margin-bottom: 16px;
+    font-size:15px
+}
+#stylish-balo .product-items {
+    margin-top:15px;
+    height: 600px;
+    display: flex;
+    width: 1170px;
+}
+#stylish-balo .product-items .product-item1 {
+    display: flex;
+    height: 290px;
+    width: 950px;
+}
+#stylish-balo .product-items .product-item1 .product-1 {
+    width: 225.5px;
+    border:1px solid gainsboro;
+    margin-left: 10px;
+}
+#stylish-balo .product-items .product-item1 .product-1 img {
+    margin-top:50px
+}
+#stylish-balo .product-items .product-item2 {
+    display: flex;
+    height: 290px;
+    width: 950px;
+    margin-top:20px;
+}
+#stylish-balo .product-items .product-item2 .product-1 {
+    width: 225.5px;
+    border:1px solid gainsboro;
+    margin-left: 10px;
+}
+#stylish-balo .product-items .product-item2 .product-1 img {
+    margin-top:50px
+}
+.product-item {
+    flex-wrap: wrap;
+    width: 939px;
+}
+.img {
+    height: 235px;
+}
+.info {
+    height: 50px;
+}
+.info .info-text {
+    font-size: 15px;
+    margin-top:5px;
+    margin-left: 10px;
+    padding-bottom: 5px;
+    color:gray;
+}
+.info .info-money {
+    margin-left: 10px;
+    color:#08C;
+}
+#tow-bag {
+    width: 1170px;
+    height: 650px;
+    margin-left: 87px;
+
+}
+#tow-bag  .taskbar {
+    width: 1168.5px;
+    height: 45px;
+    border: 1px solid gainsboro;
+    background-color:#f7f7f7;
+    margin-top: 50px;
+    display: flex;
+}
+#tow-bag  .taskbar .title{
+    background-color: #f36;
+    width: 200px;
+}
+#tow-bag  .taskbar .title h2 {
+    margin-top:11px;
+    margin-left:12px;
+    font-size: 20px;
+    color: white;
+}
+
+#tow-bag  .taskbar .content {
+    display: flex;
+    margin-left: 28px;
+}
+#tow-bag  .taskbar .content p {
+    margin-top:14px;
+    padding-right: 10px;
+    border-right: 1px solid ;
+    margin-bottom: 16px;
+    font-size:15px
+}
+#tow-bag  .product-items {
+    margin-top:15px;
+    height: 600px;
+    display: flex;
+    width: 1170px;
+}
+#tow-bag  .product-items .product-item1 {
+    display: flex;
+    height: 290px;
+    width: 950px;
+}
+#tow-bag  .product-items .product-item1 .product-1 {
+    width: 225.5px;
+    border:1px solid gainsboro;
+    margin-left: 10px;
+}
+#tow-bag  .product-items .product-item1 .product-1 img {
+    margin-top:50px
+}
+#tow-bag  .product-items .product-item2 {
+    display: flex;
+    height: 290px;
+    width: 950px;
+    margin-top:20px;
+}
+#tow-bag  .product-items .product-item2 .product-1 {
+    width: 225.5px;
+    border:1px solid gainsboro;
+    margin-left: 10px;
+}
+#tow-bag  .product-items .product-item2 .product-1 img {
+    margin-top:50px
+}
+.product-item {
+    flex-wrap: wrap;
+    width: 939px;
+}
+.img {
+    height: 235px;
+}
+.info {
+    height: 50px;
+}
+.info .info-text {
+    font-size: 15px;
+    margin-top:5px;
+    margin-left: 10px;
+    padding-bottom: 5px;
+    color:gray;
+}
+.info .info-money {
+    margin-left: 10px;
+    color:#08C;
+}
+#banner{ 
+    display: flex;
+    margin-top: 60px;
+}
+#banner .banner1 {
+    margin-left:80px;
+    padding-right: 20px;
+}
+#new-posts {
+    width: 1170px ;
+    height: 355px;
+}
+#new-posts .title {
+    width: 1170px;
+    height: 32px;
+    border-bottom:1px solid gainsboro;
+    margin-left: 89.5px;
+}
+#new-posts .title p{
+    font-weight: 520;
+    color: #666;
+    margin-top: 10px;
+    border-bottom: 3px solid #08C;
+    width: 101.5px;
+    height: 30px;
+}
+.posts {
+    width: 1170px;
+    height: 284px;
+    display: flex;
+    margin-left:89.5px ;
+    margin-top: 30px;
+}
+.posts .post {
+    border-top: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+    border-left: 1px solid gainsboro;
+}
+.posts .post .content{
+    margin-top:15px;
+    margin-left: 15px;
+    font-size: 15px;
+    margin-right: 5px;
+}
+.time {
+    margin-top: 30px;
+    margin-left: 15px;
+    font-size: 15px;
+    padding-right: 15px;
+}
+.comment {
+    margin-top: 30px;
+    margin-left: 15px;
+    font-size: 15px;    
+}
+#showroom {
+    width: 100%;
+    height: 215px;
+    border-top:1px solid gainsboro;
+}
+.showrooms   {
+    margin-top: 20px;
+    margin-left: 90px;
+}
+#menu-bottom {
+    width: 100%;
+    height: 85px;
+    border-top: 1px solid gainsboro;
+    margin-top: 60px;
+    display: flex;
+}
+#menu-bottom .logo-bottom {
+    height: 85px;
+    width: 150px;
+    margin-left: 85px;
+    margin-top: 10px;
+    padding-right: 150px;
+}
+#menu-bottom .menu-bottom {
+    width: 550px;
+    height: 100px;
+}
+#menu-bottom .menu-bottom ul {
+    display: flex;
+}
+#menu-bottom .menu-bottom ul li {
+    list-style-type:none;
+    margin-top: 35px;
+    padding-right: 20px;
+}
+#menu-bottom .menu-bottom ul li a {
+    text-decoration: none;
+}
+#menu-bottom .social-network{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 150px;
+}
+#menu-bottom .social-network .icon{
+    padding-right: 20px;
+}
+#footer{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    background-color: black;
+    flex-wrap: wrap;
+    
+}
+#footer .add {
+    width: 320px;
+    height: 218px;
+    margin-left: 80px;
+    margin-top: 50px;
+    color: gray;
+}
+#footer .add h4 {
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+#footer .add p {
+    padding-bottom: 8px;
+}
+#footer .about-we {
+    width: 300px;
+    height: 188px;
+    margin-top: 50px;
+    color: gray;
+}
+#footer .about-we h4{
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 30px;
+    color: white;
+}
+#footer .about-we p {
+    padding-bottom: 8px;
+    margin-left: 30px;
+}
+
+#footer .policy{
+    width: 300px;
+    height: 158px;
+    margin-top: 50px;
+    color: gray;
+}
+#footer .policy  h4{
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+#footer .policy p {
+    padding-bottom: 8px;
+}
+#footer .guide {
+    width: 300px;
+    height: 128px;
+    margin-top: 50px;
+    color: gray;
+}
+#footer .guide h4 {
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+#footer .guide p {
+    padding-bottom: 8px;
+}
+#footer .logo {
+    display: flex;
+}
+#footer .logo img {
+    margin-left: 150px;
+}
